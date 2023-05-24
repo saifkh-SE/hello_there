@@ -12,7 +12,7 @@ void main() {
 }
 
 /// The top-level widget of the application that represents the root of the tree
-class Main extends StatelessWidget { 
+class Main extends StatelessWidget {
   /// The constructor for the Main widget.
   const Main({super.key});
 
