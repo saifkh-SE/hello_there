@@ -1,6 +1,6 @@
 # hello_there
 
-A new Flutter project.
+This is a Flutter project that changes the background color of the application to a random color every time the screen is pressed, and it's done in 3 different ways each with a different state management solution (setState, Provider, GetX).
 
 ## Getting Started
 
