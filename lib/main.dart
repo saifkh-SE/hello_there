@@ -55,7 +55,7 @@ class HomeView extends StatelessWidget {
             // A button that navigates to the SetStateView when pressed
             ElevatedButton(
               onPressed: () {
-                Get.to(const SetStateView(title: 'SetState'));
+                Get.to(() => const SetStateView(title: 'SetState'));
               },
               child: const Text('SetState'),
             ),
@@ -65,7 +65,7 @@ class HomeView extends StatelessWidget {
             // A button that navigates to the ProviderView when pressed
             ElevatedButton(
               onPressed: () {
-                Get.to(const ProviderView(title: 'Provider'));
+                Get.to(() => const ProviderView(title: 'Provider'));
               },
               child: const Text('Provider'),
             ),
@@ -76,7 +76,7 @@ class HomeView extends StatelessWidget {
             ElevatedButton(
               onPressed: () {
                 Get.to(
-                  const GetXView(title: 'GetX'),
+                  () => const GetXView(title: 'GetX'),
                   binding: GetXBinding(),
                 );
               },
